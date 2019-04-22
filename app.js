@@ -89,7 +89,8 @@ class App extends React.Component{
       }
     ]
   }
-  
+	
+	// Render App component
   render() {
     return(
       <div className="container"> 

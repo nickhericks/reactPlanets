@@ -16,27 +16,26 @@ This project was built as I was learning about the Express web framework and the
 - Express web framework
 - Pug templating engine -->
 
-<!-- ## Code example
+## Code example
 ```javascript
-const express = require('express');
-const router = express.Router();
-
-// When request is made to main url
-router.get('/', (req, res) => {
-	// Assign username cookie to a variable
-	const name = req.cookies.username;
-	// If there is a username cookie
-	if (name) {
-		// Display the index.pug template and pass it the name variable
-		res.render("index", { name });
-	}
-	// If no cookie
-	else {
-		// Redirect to /hello url
-		res.redirect('/hello');
-	}
-});
-``` -->
+  // Render App component
+  render() {
+    return(
+      <div className="container"> 
+        { this.state.planets.map( planet => (
+          <Planet
+            key = {planet.id.toString()}
+            name = {planet.name}
+            diameter = {planet.diameter}
+            moons = {planet.moons}
+            desc = {planet.desc}
+            url = {planet.url}
+          />
+        ))}
+      </div>
+    )
+  }
+```
 
 ## Acknowledgements
 This project was built as part of the [Full Stack JavaScript Techdegree](https://join.teamtreehouse.com/techdegree/) offered by [Treehouse](https://teamtreehouse.com) :raised_hands:
