@@ -4,10 +4,11 @@
 This project is built using React to to display a list of planet cards.
 
 ***
-<!-- <img src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1554483544/portfolio/expressFlashcards.png" width="500px"> -->
 
 ## View project
 :mag: Live version available at [nickhericks.github.io/reactPlanets/](https://nickhericks.github.io/reactPlanets/)
+
+<img src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1565022764/portfolio/planets.png" width="899px">
 
 <!-- ## Project objective
 This project was built as I was learning about the Express web framework and the Pug templating engine. Through this project I learned about the request and response objects, body-parser, routes, templates, middleware, cookies (cookie-parser) redirects, error handling, modularizing routes, route parameters and query strings, serving static assets with a static server, and much more. :) -->
